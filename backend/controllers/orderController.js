@@ -3,7 +3,7 @@ import userModel from '../models/userModel.js'
 import Stripe from "stripe"
 
 const stripe = new Stripe("sk_test_51PYrphIGwImyO2PyHG3eurMqwHEgmEDi4udlPYwYC1unhTkrOF2FSXxUpFYOYtoswYy5eNgf5iVBGN97vAEaEKjW00ENstx7jg");
-const frontend_url = "http://localhost:5173"
+const frontend_url = "https://tomato-frontend-qtb1.onrender.com"
 
 const placeOrder = async (req, res) => {
 
